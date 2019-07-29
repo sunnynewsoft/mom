@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@trendmicro/react-breadcrumbs": "~0.5.5",
+    "@trendmicro/react-buttons": "~1.2.1",
+    "@trendmicro/react-dropdown": "~1.2.3",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.2",
+    "classnames": "^2.2.6",
+    "ensure-array": "^1.0.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.8.6",
+    "react-datepicker": "^2.8.0",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-semantic-ui-datepickers": "^1.10.1",
+    "redux": "^4.0.0",
+    "redux-form": "^8.2.4",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.87.3",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
